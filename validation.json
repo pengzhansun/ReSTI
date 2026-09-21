@@ -1,0 +1,14 @@
+{
+  "release": "ReSTI v5",
+  "accepted_rows": 1782,
+  "excluded_rows": 282,
+  "unique_accepted_ids": 1782,
+  "accepted_excluded_disjoint": true,
+  "sha256_checks": "pass",
+  "key_detail_agreement": "pass",
+  "exact_candidate_uniqueness": "pass",
+  "timestamp_order": "pass",
+  "summary_counts": "pass",
+  "parquet_jsonl_parity": "pass",
+  "scope": "Packaged annotation integrity; does not rerun raw-source reconstruction or model evaluation."
+}

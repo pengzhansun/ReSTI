@@ -1,0 +1,73 @@
+{
+  "name": "ReSTI",
+  "version": "v5",
+  "release_date": "2026-08-15",
+  "packaged_date": "2026-09-21",
+  "packaging": "File naming and documentation cleanup; annotation contents unchanged.",
+  "original_release_name": "resti_expanded_v4",
+  "original_archive": {
+    "name": "ReSTI_v5_20260815.zip",
+    "sha256": "0da79a3e3fec5dc4a36439ccc276f8c815e7a70ae0753189430a1e0a6ad019ed",
+    "verified_manifest_entries": 46
+  },
+  "artifacts": {
+    "annotations/resti.parquet": {
+      "original_path": "ReSTI_v5/qa_resti_expanded_v4.parquet",
+      "bytes": 556216,
+      "sha256": "5b3dbbb30aef6d078944ee9c0c91bb01dd5d487faf94eeb1ae854e1f46ea10b8",
+      "content_changed": false
+    },
+    "annotations/resti.jsonl": {
+      "original_path": "ReSTI_v5/qa_resti_expanded_v4.jsonl",
+      "bytes": 2133909,
+      "sha256": "2e31f88b67a9d08b03197f10caaf4b741e27661ec0dc721b8947c9b48b261887",
+      "content_changed": false
+    },
+    "annotations/excluded.jsonl": {
+      "original_path": "ReSTI_v5/excluded_rows.jsonl",
+      "bytes": 135352,
+      "sha256": "5066d38a43335346fab8dc67c4364001961d37259ec39c3afc5a8312a665ffc7",
+      "content_changed": false
+    }
+  },
+  "counts": {
+    "accepted": 1782,
+    "excluded": 282,
+    "original": 2064
+  },
+  "accepted_by_source": {
+    "Omni6DPose": 367,
+    "ScanNet": 783,
+    "Waymo": 632
+  },
+  "accepted_by_task": {
+    "3D Video Grounding": 314,
+    "Dimensional Measurement": 137,
+    "Displacement & Path Length": 312,
+    "Ego-Centric Orientation": 185,
+    "Pose Estimation": 349,
+    "Spatial Relation": 125,
+    "Speed & Acceleration": 282,
+    "Trajectory Description": 78
+  },
+  "excluded_by_task": {
+    "3D Video Grounding": 3,
+    "Dimensional Measurement": 152,
+    "Displacement & Path Length": 46,
+    "Pose Estimation": 11,
+    "Spatial Relation": 21,
+    "Speed & Acceleration": 49
+  },
+  "answer_letters": {
+    "A": 357,
+    "B": 357,
+    "C": 357,
+    "D": 357,
+    "E": 354
+  },
+  "paper": {
+    "repository": "https://github.com/pengzhansun/ReSTI-Technical-Report",
+    "commit": "27a9ab4"
+  },
+  "media": "Original STI-Bench videos; not included in this annotation release."
+}
